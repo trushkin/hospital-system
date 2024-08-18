@@ -47,4 +47,19 @@ ALTER TABLE patient_note
 ALTER TABLE patient_note
     ADD CONSTRAINT fk_pat_note_to_patient FOREIGN KEY (patient_id) REFERENCES patient_profile (id);
 ALTER TABLE patient_guid
-    ADD CONSTRAINT fk_pat_guid_to_pat_note FOREIGN KEY (patient_profile_id) REFERENCES patient_note (id);
+    ADD CONSTRAINT fk_pat_guid_to_pat_note FOREIGN KEY (patient_profile_id) REFERENCES patient_profile (id);
+
+INSERT INTO patient_profile (first_name, last_name, status_id)
+VALUES
+    ('John', 'Doe', 200),
+    ('Jane', 'Smith', 210),
+    ('Alice', 'Johnson', 305),
+    ('Bob', 'Brown', 230);
+
+INSERT INTO patient_guid (old_client_guid, patient_profile_id)
+VALUES
+    ('01588E84-D45A-EB98-F47F-716073A4F1EF', 1),
+    ('C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055', 1),
+    ('A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8', 2),
+    ('B3D4E5F6-H7I8-J9K0-L1M2-N3O4P5Q6R7S8', 3),
+    ('C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9', 4);
