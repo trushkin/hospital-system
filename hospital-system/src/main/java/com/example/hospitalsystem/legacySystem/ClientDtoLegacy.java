@@ -1,4 +1,4 @@
-package com.example.hospitalsystem;
+package com.example.hospitalsystem.legacySystem;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

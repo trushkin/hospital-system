@@ -1,4 +1,4 @@
-package com.example.hospitalsystem;
+package com.example.hospitalsystem.util;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Configuration;
