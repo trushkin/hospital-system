@@ -16,4 +16,8 @@ public class CompanyUser {
     private Long id;
     @Column
     private String login;
+
+    public CompanyUser(String login) {
+        this.login = login;
+    }
 }

@@ -17,11 +17,13 @@ public class PatientNote {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column(name = "last_modified_date_time")
-    private LocalDateTime lastModified_date_time;
+    private LocalDateTime lastModifiedDateTime;
     @Column(name = "created_date_time")
     private LocalDateTime createdDateTime;
     @Column
     private String note;
+    @Column(name = "old_note_guid")
+    private String oldNoteGuid;
     @ManyToOne
     @JoinColumn(name = "created_by_user_id")
     private CompanyUser createdBy;

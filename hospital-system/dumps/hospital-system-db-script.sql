@@ -37,6 +37,7 @@ CREATE TABLE IF NOT EXISTS patient_note
     last_modified_by_user_id int8          NULL,
     note                     varchar(4000) NULL,
     patient_id               int8          NOT NULL,
+    old_note_guid            varchar(255)  NULL,
 
     CONSTRAINT patient_note_pkey PRIMARY KEY (id)
 );
