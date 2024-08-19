@@ -1,6 +1,5 @@
 package com.example.hospitalsystem.legacySystem;
 
-import com.example.hospitalsystem.legacySystem.ClientDtoLegacy;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestClient;

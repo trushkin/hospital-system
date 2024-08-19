@@ -1,0 +1,47 @@
+2024-08-19 05:20:00 INFO  c.e.h.HospitalSystemApplication - Starting HospitalSystemApplication using Java 21.0.1 with PID 19224 (C:\workspace\hospital-system\hospital-system\target\classes started by Vlad in C:\workspace\hospital-system\hospital-system)
+2024-08-19 05:20:00 INFO  c.e.h.HospitalSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-19 05:20:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-19 05:20:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 3 JPA repository interfaces.
+2024-08-19 05:20:00 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-19 05:20:00 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-19 05:20:01 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-19 05:20:01 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-19 05:20:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-19 05:20:01 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d5e575c
+2024-08-19 05:20:01 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-19 05:20:01 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-19 05:20:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-19 05:20:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 05:20:01 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-19 05:20:02 INFO  c.e.h.HospitalSystemApplication - Started HospitalSystemApplication in 2.026 seconds (process running for 2.517)
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportService - 
+Amount of fetched clients is:5
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: 01588E84-D45A-EB98-F47F-716073A4F1EF has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:02 INFO  c.e.h.importLogic.ImportScheduler - 
+Import has finished by:2024-08-19T05:20:02.592291
+Updated notes:0
+Created notes:0
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportService - 
+Amount of fetched clients is:5
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: 01588E84-D45A-EB98-F47F-716073A4F1EF has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 05:20:12 INFO  c.e.h.importLogic.ImportScheduler - 
+Import has finished by:2024-08-19T05:20:12.747082500
+Updated notes:0
+Created notes:0
+2024-08-19 05:20:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 05:20:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-19 05:20:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

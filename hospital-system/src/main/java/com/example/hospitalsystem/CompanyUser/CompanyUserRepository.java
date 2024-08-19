@@ -1,4 +1,4 @@
-package com.example.hospitalsystem;
+package com.example.hospitalsystem.CompanyUser;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

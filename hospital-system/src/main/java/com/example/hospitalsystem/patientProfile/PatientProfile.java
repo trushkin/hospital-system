@@ -1,4 +1,4 @@
-package com.example.hospitalsystem;
+package com.example.hospitalsystem.patientProfile;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,5 +1,7 @@
-package com.example.hospitalsystem;
+package com.example.hospitalsystem.patientNote;
 
+import com.example.hospitalsystem.CompanyUser.CompanyUser;
+import com.example.hospitalsystem.patientProfile.PatientProfile;
 import jakarta.persistence.*;
 import lombok.*;
 
