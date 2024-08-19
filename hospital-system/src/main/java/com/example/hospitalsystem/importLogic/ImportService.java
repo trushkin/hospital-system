@@ -1,8 +1,8 @@
 package com.example.hospitalsystem.importLogic;
 
 import com.example.hospitalsystem.ActivePatientGuidWithAgency;
-import com.example.hospitalsystem.CompanyUser.CompanyUser;
-import com.example.hospitalsystem.CompanyUser.CompanyUserRepository;
+import com.example.hospitalsystem.companyUser.CompanyUser;
+import com.example.hospitalsystem.companyUser.CompanyUserRepository;
 import com.example.hospitalsystem.StatisticCounter;
 import com.example.hospitalsystem.legacySystem.ClientDtoLegacy;
 import com.example.hospitalsystem.legacySystem.LegacySystemService;
