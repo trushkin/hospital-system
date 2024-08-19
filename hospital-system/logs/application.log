@@ -45,3 +45,430 @@ Created notes:0
 2024-08-19 05:20:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-19 05:20:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-08-19 05:20:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-19 06:19:47 INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2024-08-19 06:19:47 INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-08-19 06:19:48 INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-08-19 06:19:48 INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-08-19 06:19:48 INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2024-08-19 06:19:48 INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 25.0.3
+  API Version: 1.44
+  Operating System: Docker Desktop
+  Total Memory: 15815 MB
+2024-08-19 06:19:48 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling docker image: testcontainers/ryuk:0.7.0. Please be patient; this may take some time but only needs to be done once.
+2024-08-19 06:19:48 INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-08-19 06:19:50 INFO  tc.testcontainers/ryuk:0.7.0 - Starting to pull image
+2024-08-19 06:19:50 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  0 pending,  0 downloaded,  0 extracted, (0 bytes/0 bytes)
+2024-08-19 06:19:51 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  2 pending,  1 downloaded,  0 extracted, (1022 KB/? MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  1 pending,  2 downloaded,  0 extracted, (4 MB/? MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  0 pending,  3 downloaded,  0 extracted, (6 MB/6 MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  0 pending,  3 downloaded,  1 extracted, (6 MB/6 MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  0 pending,  3 downloaded,  2 extracted, (6 MB/6 MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pulling image layers:  0 pending,  3 downloaded,  3 extracted, (6 MB/6 MB)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Image testcontainers/ryuk:0.7.0 pull took PT4.1471683S
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Pull complete. 3 layers, pulled in 1s (downloaded 6 MB at 6 MB/s)
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Creating container for image: testcontainers/ryuk:0.7.0
+2024-08-19 06:19:52 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 is starting: da5e9b8922ef52e838670b963dfeb18ca09a1147f5fdc5559b4dcb6e42fc82d8
+2024-08-19 06:19:53 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 started in PT0.7812586S
+2024-08-19 06:19:53 INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-08-19 06:19:53 INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2024-08-19 06:19:53 INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2024-08-19 06:19:53 INFO  tc.postgres:16.3 - Creating container for image: postgres:16.3
+2024-08-19 06:19:53 INFO  tc.postgres:16.3 - Container postgres:16.3 is starting: 7d5e1dbcf322ac570cf03d8b22c8557fc172a18edb6843a47c6014ffe8cd29a0
+2024-08-19 06:19:54 INFO  tc.postgres:16.3 - Container postgres:16.3 started in PT1.1392109S
+2024-08-19 06:19:54 INFO  tc.postgres:16.3 - Container is started (JDBC URL: jdbc:postgresql://localhost:57943/test?loggerLevel=OFF)
+2024-08-19 06:19:54 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.hospitalsystem.ImportAndUpdateTests]: ImportAndUpdateTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-19 06:19:54 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.hospitalsystem.HospitalSystemApplication for test class com.example.hospitalsystem.ImportAndUpdateTests
+2024-08-19 06:20:45 INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2024-08-19 06:20:45 INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-08-19 06:20:45 INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-08-19 06:20:45 INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-08-19 06:20:45 INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2024-08-19 06:20:45 INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 25.0.3
+  API Version: 1.44
+  Operating System: Docker Desktop
+  Total Memory: 15815 MB
+2024-08-19 06:20:46 INFO  tc.testcontainers/ryuk:0.7.0 - Creating container for image: testcontainers/ryuk:0.7.0
+2024-08-19 06:20:46 INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-08-19 06:20:46 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 is starting: 35a601067a2f8040eb60ec95b1f717d921f01e746321cefa6d4bb2aee1201ffa
+2024-08-19 06:20:46 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 started in PT0.6683793S
+2024-08-19 06:20:46 INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-08-19 06:20:46 INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2024-08-19 06:20:46 INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2024-08-19 06:20:46 INFO  tc.postgres:16.3 - Creating container for image: postgres:16.3
+2024-08-19 06:20:46 INFO  tc.postgres:16.3 - Container postgres:16.3 is starting: 36fe1cf3965f85ff6e9525250ce43418828bdffed7f0de58256c20397cc76814
+2024-08-19 06:20:47 INFO  tc.postgres:16.3 - Container postgres:16.3 started in PT1.149934S
+2024-08-19 06:20:47 INFO  tc.postgres:16.3 - Container is started (JDBC URL: jdbc:postgresql://localhost:57988/test?loggerLevel=OFF)
+2024-08-19 06:20:47 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.hospitalsystem.ImportAndUpdateTests]: ImportAndUpdateTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-19 06:20:47 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.hospitalsystem.HospitalSystemApplication for test class com.example.hospitalsystem.ImportAndUpdateTests
+2024-08-19 06:21:32 INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2024-08-19 06:21:32 INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-08-19 06:21:32 INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-08-19 06:21:32 INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-08-19 06:21:32 INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2024-08-19 06:21:32 INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 25.0.3
+  API Version: 1.44
+  Operating System: Docker Desktop
+  Total Memory: 15815 MB
+2024-08-19 06:21:32 INFO  tc.testcontainers/ryuk:0.7.0 - Creating container for image: testcontainers/ryuk:0.7.0
+2024-08-19 06:21:32 INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-08-19 06:21:32 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 is starting: 31659ba7d4641264f0694560ef592cdf5f7810b8800492861a6d7be616cca666
+2024-08-19 06:21:33 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 started in PT0.6093279S
+2024-08-19 06:21:33 INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-08-19 06:21:33 INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2024-08-19 06:21:33 INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2024-08-19 06:21:33 INFO  tc.postgres:16.3 - Creating container for image: postgres:16.3
+2024-08-19 06:21:33 INFO  tc.postgres:16.3 - Container postgres:16.3 is starting: 8df76e474b33ec8c1389302218de8d1b570300644bb63e9407835335545cdeaa
+2024-08-19 06:21:34 INFO  tc.postgres:16.3 - Container postgres:16.3 started in PT1.0564858S
+2024-08-19 06:21:34 INFO  tc.postgres:16.3 - Container is started (JDBC URL: jdbc:postgresql://localhost:58012/test?loggerLevel=OFF)
+2024-08-19 06:21:34 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.hospitalsystem.ImportAndUpdateTests]: ImportAndUpdateTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-19 06:21:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.hospitalsystem.HospitalSystemApplication for test class com.example.hospitalsystem.ImportAndUpdateTests
+2024-08-19 06:23:15 INFO  o.testcontainers.images.PullPolicy - Image pull policy will be performed by: DefaultPullPolicy()
+2024-08-19 06:23:15 INFO  o.t.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+2024-08-19 06:23:15 INFO  o.t.d.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.NpipeSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2024-08-19 06:23:15 INFO  o.t.d.DockerClientProviderStrategy - Found Docker environment with local Npipe socket (npipe:////./pipe/docker_engine)
+2024-08-19 06:23:15 INFO  o.testcontainers.DockerClientFactory - Docker host IP address is localhost
+2024-08-19 06:23:15 INFO  o.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 25.0.3
+  API Version: 1.44
+  Operating System: Docker Desktop
+  Total Memory: 15815 MB
+2024-08-19 06:23:15 INFO  tc.testcontainers/ryuk:0.7.0 - Creating container for image: testcontainers/ryuk:0.7.0
+2024-08-19 06:23:16 INFO  o.t.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+2024-08-19 06:23:16 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 is starting: 15eefd0efd815497e0344928f33046016678776f6ef970f001d075e6a4b20450
+2024-08-19 06:23:16 INFO  tc.testcontainers/ryuk:0.7.0 - Container testcontainers/ryuk:0.7.0 started in PT0.5974162S
+2024-08-19 06:23:16 INFO  o.t.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2024-08-19 06:23:16 INFO  o.testcontainers.DockerClientFactory - Checking the system...
+2024-08-19 06:23:16 INFO  o.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+2024-08-19 06:23:16 INFO  tc.postgres:16.3 - Creating container for image: postgres:16.3
+2024-08-19 06:23:16 INFO  tc.postgres:16.3 - Container postgres:16.3 is starting: 3c753a9ff0d9e47d8ff410825fcf821f86b307d989fdcd8fafe3817764b62f4b
+2024-08-19 06:23:17 INFO  tc.postgres:16.3 - Container postgres:16.3 started in PT1.0471358S
+2024-08-19 06:23:17 INFO  tc.postgres:16.3 - Container is started (JDBC URL: jdbc:postgresql://localhost:58047/test?loggerLevel=OFF)
+2024-08-19 06:23:17 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.hospitalsystem.ImportAndUpdateTests]: ImportAndUpdateTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-08-19 06:23:17 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.hospitalsystem.HospitalSystemApplication for test class com.example.hospitalsystem.ImportAndUpdateTests
+2024-08-19 06:23:18 INFO  c.e.h.ImportAndUpdateTests - Starting ImportAndUpdateTests using Java 21.0.1 with PID 23632 (started by Vlad in C:\workspace\hospital-system\hospital-system)
+2024-08-19 06:23:18 INFO  c.e.h.ImportAndUpdateTests - No active profile set, falling back to 1 default profile: "default"
+2024-08-19 06:23:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-19 06:23:19 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces.
+2024-08-19 06:23:19 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-19 06:23:19 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-19 06:23:19 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-19 06:23:19 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-19 06:23:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-19 06:23:19 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4088702d
+2024-08-19 06:23:19 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-19 06:23:19 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-19 06:23:20 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-19 06:23:20 ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+2024-08-19 06:23:20 WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+2024-08-19 06:23:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-19 06:23:20 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-19 06:23:20 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-19 06:23:20 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 92 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:135)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 96 common frames omitted
+2024-08-19 06:23:20 WARN  o.s.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.example.hospitalsystem.ImportAndUpdateTests@66694050]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@60660d21 testClass = com.example.hospitalsystem.ImportAndUpdateTests, locations = [], classes = [com.example.hospitalsystem.HospitalSystemApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [PropertySourceDescriptor[locations=[], ignoreResourceNotFound=false, name=null, propertySourceFactory=null, encoding=null]], propertySourceProperties = ["scheduler.enabled=false", "org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [[ImportsContextCustomizer@28be7db5 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.reactive.WebTestClientAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@516592b1, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@76bf1bb8, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@74834afd, org.springframework.boot.test.web.reactor.netty.DisableReactorResourceFactoryGlobalResourcesContextCustomizerFactory$DisableReactorResourceFactoryGlobalResourcesContextCustomizerCustomizer@723877dd, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@65e22def, org.springframework.test.context.support.DynamicPropertiesContextCustomizer@721354a3, org.springframework.boot.test.context.SpringBootTestAnnotation@dd92b6ae], contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 72 common frames omitted
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 92 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing table [company_user]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:135)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:46)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:98)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:289)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 96 common frames omitted
+2024-08-19 06:25:13 INFO  c.e.h.HospitalSystemApplication - Starting HospitalSystemApplication using Java 21.0.1 with PID 22888 (C:\workspace\hospital-system\hospital-system\target\classes started by Vlad in C:\workspace\hospital-system\hospital-system)
+2024-08-19 06:25:13 INFO  c.e.h.HospitalSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-19 06:25:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-19 06:25:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-08-19 06:25:13 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-19 06:25:13 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-19 06:25:13 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-19 06:25:14 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-19 06:25:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-19 06:25:14 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60dc1a4e
+2024-08-19 06:25:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-19 06:25:14 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-19 06:25:14 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-19 06:25:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 06:25:14 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-08-19 06:25:15 INFO  c.e.h.HospitalSystemApplication - Started HospitalSystemApplication in 2.203 seconds (process running for 2.686)
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportService - 
+Amount of fetched clients is:5
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: 01588E84-D45A-EB98-F47F-716073A4F1EF has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:15 INFO  c.e.h.importLogic.ImportScheduler - 
+Import has finished by:2024-08-19T06:25:15.541094200
+Updated notes:0
+Created notes:0
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportService - 
+Amount of fetched clients is:5
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: 01588E84-D45A-EB98-F47F-716073A4F1EF has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:25 INFO  c.e.h.importLogic.ImportScheduler - 
+Import has finished by:2024-08-19T06:25:25.689494700
+Updated notes:0
+Created notes:0
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportService - 
+Amount of fetched clients is:5
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: 01588E84-D45A-EB98-F47F-716073A4F1EF has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C5DCAA49-ADE5-E65C-B776-3F6D7B5F2055 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: A2C3D4F6-G7H8-I9J0-K1L2-M3N4O5P6Q7R8 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportService - 
+Patient with oldguid: C4D5E6F7-I8J9-K0L1-M2N3-O4P5Q6R7S8T9 has 3 notes in legacy system from 2021-11-15 till 2021-11-30
+2024-08-19 06:25:35 INFO  c.e.h.importLogic.ImportScheduler - 
+Import has finished by:2024-08-19T06:25:35.825134700
+Updated notes:0
+Created notes:0
+2024-08-19 06:25:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-19 06:25:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-19 06:25:38 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
