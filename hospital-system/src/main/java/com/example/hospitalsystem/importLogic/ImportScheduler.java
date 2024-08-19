@@ -17,8 +17,7 @@ public class ImportScheduler {
     private final ImportService importService;
     private static final Logger log = LoggerFactory.getLogger(ImportScheduler.class);
 
-    // @Scheduled(cron = "0 15 */2 * * *")
-    @Scheduled(fixedDelay = 10000)
+    @Scheduled(cron = "0 15 */2 * * *")
     public void scheduleImport() {
         List<ActivePatientGuidWithAgency> activePatientsList = importService.fetchActivePatients();
         StatisticCounter statisticCounter = new StatisticCounter();
